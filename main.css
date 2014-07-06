@@ -16,6 +16,14 @@ body {
 	height: 189px;
 }
 
+.center-container-3 {
+	margin-top: 50px;
+	display: -webkit-flex;
+	display: flex;
+	height: 480px;
+	padding: 25px;
+}
+
 .video {
 	margin: auto;
 	border: none;
@@ -39,10 +47,12 @@ body {
 /*Package*/
 
 .package{
+	border-radius: 2px;
 	color: #FAFAFA;
 	text-align: center;
 	margin: auto;
 	flex: 1;
+	height: 400px;
 }
 
 .package:hover{
@@ -57,6 +67,28 @@ body {
 	display: inline-block;
 	background-color: #002F5A;
 }
+
+.package img{
+	display: block;
+	margin: auto;
+	max-width: 200px;
+	height: 124px;
+}
+
+.package p{
+	font-size: 24px;
+	font-family: 'roboto';
+}
+
+.package button{
+	padding: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	border: 3px solid #292929;
+	background-color: #002F5A;
+	border-radius: 3px;
+}
+
 
 /*Package*/
 
