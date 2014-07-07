@@ -52,7 +52,12 @@ body {
 	text-align: center;
 	margin: auto;
 	flex: 1;
-	height: 400px;
+	height: 525px;
+	border: 2px solid #292929;
+}
+
+.package:nth-child(even){
+	box-shadow: 0px 0px 10px 0px #000;
 }
 
 .package:hover{
@@ -68,25 +73,29 @@ body {
 	background-color: #002F5A;
 }
 
-.package img{
+.gun{
 	display: block;
 	margin: auto;
 	max-width: 200px;
 	height: 124px;
 }
 
-.package p{
+.price {
 	font-size: 24px;
 	font-family: 'roboto';
 }
 
-.package button{
-	padding: 10px;
-	padding-right: 25px;
-	padding-left: 25px;
-	border: 3px solid #292929;
-	background-color: #002F5A;
-	border-radius: 3px;
+.desc{
+	font-family: 'roboto';
+	font-size: 16px;
+	text-align: left;
+	margin-left: 25px;
+	height: 105px;
+}
+
+.btn{
+	max-height: 75%;
+	max-width: 75%;
 }
 
 
