@@ -53,6 +53,7 @@ body {
 	flex: 1;
 	height: 525px;
 	border: 2px solid #292929;
+	background-color: #333333;
 }
 
 .package:nth-child(even){
@@ -109,6 +110,26 @@ body {
 .logo img{
  max-width: 100%;
  max-height: 100%;
+}
+
+.buy-bronze, .buy-gold, .buy-silver{
+	text-align: center;
+	display: none;
+	background-color: white;
+	width: 500px; 
+	height: 300px;
+	border-radius: 7px;
+}
+.buy-bronze h2, .buy-gold h2, .buy-silver h2{
+	margin-top: 60px;
+}
+
+.buttons * {
+	display: inline-block;
+	width: 124px; 
+	height: 62px;
+	padding: 15px;
+	margin: 0 auto;
 }
 
 
