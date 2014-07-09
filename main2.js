@@ -26,7 +26,7 @@ $(document).on('ready', function() {
 		}); 
 	}
 
-	$(document).on('click', 'a', function(event){
+	$('.package').on('click', 'a', function(event){
 		event.preventDefault();
 		if ($(this).is('#buy-bronze')){
 			$('.buy-bronze').bPopup({
