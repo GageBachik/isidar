@@ -1,5 +1,7 @@
 body {
-	background-image: url('https://www.cpcracing.com/wp-content/uploads/2013/08/diamond_plate.png');
+	background-image: url('background.png');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
 	background-color: #333333;
 }
 
@@ -115,21 +117,34 @@ body {
 .buy-bronze, .buy-gold, .buy-silver{
 	text-align: center;
 	display: none;
-	background-color: white;
+	background-color: #292929;
 	width: 500px; 
 	height: 300px;
 	border-radius: 7px;
+	color: #FAFAFA;
+	box-shadow: 0 0 10px 2px #000;
 }
 .buy-bronze h2, .buy-gold h2, .buy-silver h2{
-	margin-top: 60px;
+	margin-top: 25px;
+	font-size: 32px;
+}
+
+.buy-bronze h3, .buy-gold h3, .buy-silver h3{
+	text-align: left;
+	margin-left: 25px;
+    margin-top: 40px;
 }
 
 .buttons * {
 	display: inline-block;
-	width: 124px; 
-	height: 62px;
+	width: 100px; 
+	height: 100px;
 	padding: 15px;
 	margin: 0 auto;
+}
+
+.buttons {
+	padding-right: 20px;
 }
 
 
